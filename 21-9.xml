@@ -1,0 +1,19 @@
+<theme>
+    <view name="system">
+        <datetime name="gamelbl">
+			<pos>0.7825 0.385</pos>
+		</datetime>
+        <text name="game">
+			<pos>0.775 0.385</pos>
+		</text>
+        <rating name="rating">
+            <pos>0.82 0.405</pos>
+            <size>0.08 0.023</size>
+        </rating>
+    </view>
+
+    <view name="gamelist">
+        
+    </view>
+        
+</theme>

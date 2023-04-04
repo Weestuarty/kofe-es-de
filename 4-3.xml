@@ -1,0 +1,22 @@
+<theme>
+    <view name="system">
+        <datetime name="gamelbl">
+			<pos>0.78 0.39</pos>
+		</datetime>
+    </view>
+
+    <view name="gamelist">
+        <image name="Syslogo">
+            <maxSize>0.3 0.04</maxSize>
+        </image>
+        <badges name="all">
+			<pos>0.8875 0.075</pos>
+			<size>0.04 .5</size>
+		</badges>
+        <rating name="rating">
+            <pos>0.331 0.335</pos>
+            <size>0.08 0.03</size>
+        </rating>
+    </view>
+        
+</theme>
