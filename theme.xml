@@ -107,14 +107,14 @@
 			<allowDuplicates>true</allowDuplicates>
 		</gameselector>
         <image name="screen">
-            <imageType>screenshot</imageType>
+            <imageType>screenshot,cover,titlescreen</imageType>
             <cropSize>0.525 0.28</cropSize>
             <pos>0.1375 0.065</pos>
             <brightness>-0.5</brightness>
             <zIndex>10</zIndex>
         </image>
         <video name="screen2">
-            <imageType>screenshot</imageType>
+            <imageType>screenshot,cover,titlescreen</imageType>
             <cropSize>0.21 0.275</cropSize>
             <pos>0.6675 0.0675</pos>
             <zIndex>11</zIndex>
