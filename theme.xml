@@ -7,7 +7,8 @@
 <theme>
 
     <include>./colors.xml</include>
-    <include>./metadata-global/${system.theme}.xml</include>
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
 
 
     <aspectRatio name="4:3">
