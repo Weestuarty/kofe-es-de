@@ -30,6 +30,8 @@
         <secondFont>./assets/fonts/bold.ttf</secondFont>
         <helpFont>./assets/fonts/elli.otf</helpFont>
         <helpFontSize>0.02</helpFontSize>
+        <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
+        <syslogoColor>./system/logos/syslogocolor/${system.theme}.svg</syslogoColor>
     </variables>
 
     <view name="system">
@@ -369,7 +371,7 @@
             <zIndex>15</zIndex>
         </image>
         <image name="Syslogo">
-            <path>./assets/syslogo/${system.theme}.svg</path>
+            <path>${syslogo}</path>
             <pos>0.0875 0.34</pos>
             <origin>0.5 0.5</origin>
             <rotation>-90</rotation>
@@ -560,7 +562,7 @@
     <variant name="solidWithVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+                <staticImage>${syslogo}</staticImage>
                 <imageColor>${secondColor}</imageColor>
                 <imageSelectedColor>${secondColor}</imageSelectedColor>
             </carousel>
@@ -580,7 +582,7 @@
     <variant name="solidWithoutVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+                <staticImage>${syslogo}</staticImage>
                 <imageColor>${secondColor}</imageColor>
                 <imageSelectedColor>${secondColor}</imageSelectedColor>
             </carousel>
@@ -599,7 +601,7 @@
     <variant name="colorWithVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogocolor/${system.theme}.svg</staticImage>
+                <staticImage>${syslogoColor}</staticImage>
             </carousel>
         </view>
         <view name="gamelist">
@@ -617,7 +619,7 @@
     <variant name="colorWithoutVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogocolor/${system.theme}.svg</staticImage>
+                <staticImage>${syslogoColor}</staticImage>
             </carousel>
         </view>
         <view name="gamelist">
