@@ -37,8 +37,8 @@ jobs:
       #   run: git clone "https://gitlab.com/es-de/themes/system-controllers-outline.git"
         
       # Clones newest system-metadata from the Gitlab Repo
-      # - name: grab system metadata
-      #   run: git clone "https://gitlab.com/es-de/themes/system-metadata.git"
+      - name: grab system metadata
+        run: git clone "https://gitlab.com/es-de/themes/system-metadata.git"
           
       # copy white logos to proper folders if needed
       - name: copy white logos
