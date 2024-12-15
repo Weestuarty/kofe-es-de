@@ -7,6 +7,7 @@
 <theme>
 
     <include>./colors.xml</include>
+    <include>./languages.xml</include>
     <include>./system/metadata/_default.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
 
@@ -413,7 +414,7 @@
             <origin>0 0</origin>
         </text>
         <text name="publisher2">
-            <text>Publisher:</text>
+            <text>${langLabelPublisher}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${secondFont}</fontPath>
             <fontSize>0.025</fontSize>
@@ -434,7 +435,7 @@
             <origin>0 0</origin>
         </text>
         <text name="developer2">
-            <text>Developer:</text>
+            <text>${langLabelDeveloper}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${secondFont}</fontPath>
             <fontSize>0.025</fontSize>
@@ -455,7 +456,7 @@
             <origin>0 0</origin>
         </text>
         <text name="genre2">
-            <text>Genre:</text>
+            <text>${langLabelGenre}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${secondFont}</fontPath>
             <fontSize>0.025</fontSize>
@@ -476,7 +477,7 @@
             <origin>0 0</origin>
         </text>
         <text name="players2">
-            <text>Number of Players:</text>
+            <text>${langLabelPlayers}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${secondFont}</fontPath>
             <fontSize>0.025</fontSize>
@@ -497,7 +498,7 @@
             <origin>0 0</origin>
         </datetime>
         <text name="release2">
-            <text>Released:</text>
+            <text>${langLabelReleasedate}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${secondFont}</fontPath>
             <fontSize>0.025</fontSize>
@@ -506,7 +507,7 @@
             <origin>0 0</origin>
         </text>
         <text name="rating">
-            <text>Rating:</text>
+            <text>${langLabelRating}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${secondFont}</fontPath>
             <fontSize>0.025</fontSize>
